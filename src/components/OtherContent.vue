@@ -51,9 +51,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 div {
-  background-color: blue;
   padding: 20px;
-
+background-color: #0282f9;
   ul {
     list-style-type: none;
     li {
@@ -62,10 +61,11 @@ div {
         display: inline-block;
         text-decoration: none;
         color: #fff;
-        padding: 10px;
+        padding: 10px 15px;
         text-transform: uppercase;
+        font-size: 12px;
         img {
-          height: 70px;
+          height: 50px;
           vertical-align: middle;
         }
       }
