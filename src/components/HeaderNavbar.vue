@@ -90,15 +90,17 @@ export default {
 header {
     width: 80%;
     margin: 0 auto;
+    padding: 2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
 
     div {
-
+        display: flex;
+        align-items: center;
         img {
-            height: 80px;
+            height: 50px;
             width: auto;
         }
     }

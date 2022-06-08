@@ -51,8 +51,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 div {
+  text-align: center;
   padding: 20px;
-background-color: #0282f9;
+  background-color: #0282f9;
   ul {
     list-style-type: none;
     li {
