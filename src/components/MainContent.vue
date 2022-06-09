@@ -1,8 +1,22 @@
 <template>
-    <div id="card-container">
-        <MyContent v-for="(product, index) in products" :key="index"
+    <div>
+        <div id="jumbotron">
+            <img src="../assets/img/jumbotron.jpg" alt="Jumbotron">
+            <div class="btn series">
+                CURRENT SERIES
+            </div>
+        </div>
+        
+        <div id="card-container">
+            <MyContent v-for="(product, index) in products" :key="index"
             :details="product"
         />
+        </div>
+        <div id="button-more">
+            <div class="btn more">
+                LOAD MORE
+            </div>
+        </div>
     </div>
 </template>
 
@@ -97,16 +111,48 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
+    .btn {
+        background-color: #0282f9;
+        display: inline-block;
+        padding: 10px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
 
+    div#jumbotron {
+        position: relative;
+        img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            object-position: top;
+        }
+        .btn.series {
+        position: absolute;
+        left: 10%;
+        bottom: -15px;
+        cursor: default;
+        }
+    
+
+    }
     div#card-container {
-        padding: 20px 0 50px 0;
+        padding-top: 20px;
         width: 80%;
         margin: 0 auto;
         display: flex;
-        align-items: center;
         justify-content: space-evenly;
         flex-basis: calc(100% / 6);
         flex-wrap: wrap;
     }
 
+    #button-more {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .btn.more {
+        padding: 7px 50px;
+        font-size: 14px;
+    }
 </style>

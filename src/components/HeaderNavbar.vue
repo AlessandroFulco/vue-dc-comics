@@ -125,10 +125,13 @@ header {
                     font-size: 12px;
                     display: flex;
                     align-items: center;
-
+                    font-weight: bold;
                     &.here {
                         color: #0282f9; 
                         border-bottom: 5px solid #0282f9;
+                    }
+                    &:hover {
+                        color: #0282f9;
                     }
                 }
             }

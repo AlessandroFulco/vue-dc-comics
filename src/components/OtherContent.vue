@@ -51,18 +51,21 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 div {
-  text-align: center;
-  padding: 20px;
-  background-color: #0282f9;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0;
+
   ul {
     list-style-type: none;
+      display: flex;
+      justify-content: space-between;
     li {
-      display: inline-block;
+      
       a {
         display: inline-block;
         text-decoration: none;
         color: #fff;
-        padding: 10px 15px;
+        padding: 10px 50px;
         text-transform: uppercase;
         font-size: 12px;
         img {

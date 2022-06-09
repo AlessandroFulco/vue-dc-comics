@@ -17,7 +17,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
     div.card-prod {
+        text-align: left;
         flex-basis: calc(100% / 6);
+        padding-bottom: 20px;
         img {
             height: 150px;
             width: 150px;
@@ -27,7 +29,9 @@ export default {
         h4 {
             width: 150px;
             color: #fff;
-            font-size: 14px;
+            font-size: 12px;
+            padding: 10px 0;
+            text-transform: uppercase;
         }
 
     }

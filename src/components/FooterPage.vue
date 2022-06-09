@@ -40,11 +40,24 @@
           </section>
 
           <!-- dx side -->
-          <section id="bg-logo"></section>
+          <section id="bg-logo">
+          </section>
         </div>
         <!-- sezione inferiore -->
         <div class="down">
-
+          <div id="contentFooter">
+            <div class="btn">
+              SGN-UP NOW!
+            </div>
+            <div id="media">
+              <h3>FOLLOW US</h3>
+              <a href="#"><img src="../assets/img/footer-facebook.png" alt="logo Facebook"></a>
+              <a href="#"><img src="../assets/img/footer-twitter.png" alt="logo twitter"></a>
+              <a href="#"><img src="../assets/img/footer-youtube.png" alt="logo youtube"></a>
+              <a href="#"><img src="../assets/img/footer-pinterest.png" alt="logo pinterest"></a>
+              <a href="#"><img src="../assets/img/footer-periscope.png" alt="map"></a>
+            </div>
+          </div>
         </div>
 
 
@@ -204,6 +217,11 @@ export default {
                 padding: 5px 5px;
                 font-size: 12px;
                 text-decoration: none;
+                font-weight: bold;
+                &:hover {
+                  background-color: rgba(255, 255, 255, 0.6);
+                  color: #fff;
+                }
               }
             }
           }
@@ -215,13 +233,34 @@ export default {
         background-position: center center;
         background-repeat: none;
         background-size: cover;
+
       }
     }
     div.down {
       height: 100px;
       background-color: #303030;
-    }
+      #contentFooter{
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 80%;
 
+        .btn {
+          background-color: transparent;
+          border: 1px solid #0282f9;
+        }
+        #media{
+          h3 {
+            color:#0282f9;
+          }
+          display: flex;
+          align-items: center;
+          gap: 15px;
+        }
+      }
+    }
   }
 
 </style>

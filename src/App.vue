@@ -4,7 +4,9 @@
       <div class="bg-main-content">
         <MainContent/>
       </div>
-      <OtherContent/>
+      <div id="other">
+        <OtherContent/>
+      </div>
       <FooterPage/>
     </div>
 </template>
@@ -38,7 +40,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 
   .bg-main-content {
-    background-color: #000;
+    background-color: #1c1c1c;
+  }
+  #other {
+    background-color: #0282f9;
   }
 }
 </style>
