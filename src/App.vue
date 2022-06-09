@@ -1,7 +1,9 @@
 <template>
     <div id="app">
       <HeaderNavbar/>
-      <MainContent/>
+      <div class="bg-main-content">
+        <MainContent/>
+      </div>
       <OtherContent/>
       <FooterPage/>
     </div>
@@ -34,5 +36,9 @@ export default {
   font-family: arial, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  .bg-main-content {
+    background-color: #000;
   }
+}
 </style>

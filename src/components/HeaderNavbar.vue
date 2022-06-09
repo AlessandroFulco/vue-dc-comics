@@ -20,63 +20,63 @@
 <script>
 export default {
   name: 'HeaderNavbar',
-  data(){
-    return {
-        sectionsMenu: [
-            {
-                name: "characters",
-                ulr: "#",
-                current: false
-            },
-            {
-                name: "comics",
-                ulr: "#",
-                current: true
-            },
-            {
-                name: "movies",
-                ulr: "#",
-                current: false
-            },
-            {
-                name: "tv",
-                ulr: "#",
-                current: false
-            },
-            {
-                name: "games",
-                ulr: "#",
-                current: false
-            },
-            {
-                name: "collectibles",
-                ulr: "#",
-                current: false
-            },
-            {
-                name: "videos",
-                ulr: "#",
-                current: false
-            },
-            {
-                name: "fans",
-                ulr: "#",
-                current: false
-            },
-            {
-                name: "news",
-                ulr: "#",
-                current: false
-            },
-            {
-                name: "shop",
-                ulr: "#",
-                current: false
-            },
-        ]
+    data(){
+        return {
+            sectionsMenu: [
+                {
+                    name: "characters",
+                    ulr: "#",
+                    current: false
+                },
+                {
+                    name: "comics",
+                    ulr: "#",
+                    current: true
+                },
+                {
+                    name: "movies",
+                    ulr: "#",
+                    current: false
+                },
+                {
+                    name: "tv",
+                    ulr: "#",
+                    current: false
+                },
+                {
+                    name: "games",
+                    ulr: "#",
+                    current: false
+                },
+                {
+                    name: "collectibles",
+                    ulr: "#",
+                    current: false
+                },
+                {
+                    name: "videos",
+                    ulr: "#",
+                    current: false
+                },
+                {
+                    name: "fans",
+                    ulr: "#",
+                    current: false
+                },
+                {
+                    name: "news",
+                    ulr: "#",
+                    current: false
+                },
+                {
+                    name: "shop",
+                    ulr: "#",
+                    current: false
+                },
+            ]
+        }
+        
     }
-    
-}
 }
 
 
@@ -136,8 +136,6 @@ header {
     }
     
 }
-h1 {
-  color: blueviolet;
-}
+
 
 </style>
